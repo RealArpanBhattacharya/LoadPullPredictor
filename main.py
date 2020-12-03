@@ -3,7 +3,7 @@ from flask import request
 from flask import jsonify, make_response
 import pickle
 import numpy as np
-from flask_cors import CORS, cross_origin
+from flask_cors import CORS
 
 app = flask.Flask(__name__)
 app.config["DEBUG"] = True
