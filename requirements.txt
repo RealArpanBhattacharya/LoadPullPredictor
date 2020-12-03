@@ -1,0 +1,6 @@
+flask
+sklearn
+flask-cors
+seaborn
+pandas
+numpy
