@@ -7,7 +7,6 @@ from flask_cors import CORS, cross_origin
 
 app = flask.Flask(__name__)
 app.config["DEBUG"] = True
-
 CORS(app)
 
 @app.route('/getCurrentAndVoltageValues', methods=['GET'])
